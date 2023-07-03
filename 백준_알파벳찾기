@@ -1,3 +1,8 @@
+# 입력한 문자에 포함된 알파멧(소문자)의 위치를 반환한다.
+# 만약 알파벳이 없을경우 -1을 반환
+# find()를 사용하여 찾음
+# end = ' ' 를 사용하면 공백없이 출력 도와줌
+
 s = input()
 a = 'abcdefghijklmnopqrstuvwxyz'
 for i in a:
