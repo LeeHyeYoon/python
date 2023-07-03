@@ -1,0 +1,12 @@
+# 팰린드롬인지 확인하기
+# 처음에는 append를 이용하여 list를 생성해 문자열 하나하나를 비교하려고 했으나
+# 무멋이 문제인지.. 코드 오류가 났다. 그래서 reversed() 함수를 사용
+# string -> list로 만듬, revers와 a를 비교했다.
+
+a = input()
+revers = list(reversed(list(a)))
+
+if revers == list(a):
+    print(1)
+else:
+    print(0)
